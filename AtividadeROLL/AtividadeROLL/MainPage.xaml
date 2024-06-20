@@ -14,8 +14,8 @@
                 Style="{StaticResource Headline}"
                 />
             <Label
-                x:Name="RandomNumber"
-                Text="Var"
+                x:Name="Result"
+                Text=""
                 Style="{StaticResource SubHeadline}"
                 />
 

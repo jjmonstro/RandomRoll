@@ -14,9 +14,9 @@ namespace AtividadeROLL
 
         private void btnRoll_Clicked(object sender, EventArgs e)
         {
-           double randomNumber = Convert.ToDouble(RandomNumber.Text);
-            double random = new Random().Next(0, 100);
-            RandomNumber.Text = randomNumber.ToString();
+            int selectedSide = Convert.ToInt32(Pic.SelectedItem);
+            int random = new Random().Next(0, selectedSide+1);
+            Result.Text = random.ToString();
     }
     }
 
